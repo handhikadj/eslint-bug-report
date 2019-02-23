@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended",
+        "plugin:prettier/recommended",
+        "prettier",
+        "prettier/vue"
+    ],
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "plugins": ["vue", "prettier"],
+    "rules": {
+        "linebreak-style": [
+            "error",
+            "windows"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "no-console": "off",
+        "no-empty": 0,
+        "no-unused-vars": 0,
+        "no-undef": 0,
+        "no-mixed-spaces-and-tabs": 0
+    }
+}
